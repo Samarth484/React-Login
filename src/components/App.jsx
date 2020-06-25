@@ -1,6 +1,6 @@
 import React from "react";
 
-var isLoggedIn=true;
+var isLoggedIn=false;
 
 function renderPage(){
   if(isLoggedIn === true)

@@ -1,9 +1,9 @@
 import React from "react";
 
-function Input() {
+function Input(props) {
     return (
-        <div><input type="text" placeholder="Username"></input>
-            <input type="password" placeholder="Password"></input>
-        </div>)
+        <div><input type={props.type} placeholder={props.placeholder}></input>
+        </div>
+    );
 }
 export default Input;
